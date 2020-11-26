@@ -31,9 +31,7 @@ class Weather {
     const responseData = await response.json();
     return responseData;      
   }
-
   
-
   // change weather location
   changeLocation(city) {
     this.city = city;

@@ -24,7 +24,7 @@ document.getElementById('w-change-btn').addEventListener('click', (e) => {
 
 
 // Load weather on DOM loaded
-document.addEventListener('DOMContentLoaded', loadWeather); 
+document.addEventListener('DOMContentLoaded', loadWeather()); 
 
 function loadWeather() {
   // FETCH CITY ID THEN FEACH WEATHER FOR CITY 
